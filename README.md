@@ -7,6 +7,13 @@ Laravel MVC application
 
 ### Setup
 
+Creates a ``.env`` based on ``.env.example``, attention if you are a Windows user.
+
+Copy .env.example: 
+```shell script
+cp .env.example .env
+```
+
 Start containers detached from terminal running: 
 ```shell script
 docker-compose up -d
